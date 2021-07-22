@@ -97,7 +97,7 @@ footer {
   font-family: 'Roboto', sans-serif;
 }
 .buttonGo:hover{
-  
+
   border-color: #39A6A3;
   color:#39A6A3;
   box-shadow: 0 0.5em 0.5em -0.4em #39A6A3;
@@ -107,7 +107,7 @@ footer {
 .dicee{
 
   margin-top: 150px;
-
+  margin-bottom: 100px;
   width:350px;
   height:350px;
 
