@@ -12,13 +12,13 @@
 
 body {
   /* background: linear-gradient(-70deg, #81B214 30%,#B6C867 30%); */
-  background: linear-gradient(-90deg, #39A6A3 30%, #ffcd3b 50%);
+  background: linear-gradient(-90deg, #39A6A3 30%, #ffcd3b 30%);
   background-repeat: no-repeat;
   /* background:linear-gradient(-70deg, #fa7c30 30%, #000000 30%); */
   text-align: center;
 }
 .bg{
-  background: linear-gradient(-90deg, #39A6A3 30%, #ffcd3b 50%);
+  background: linear-gradient(-90deg, #39A6A3 50%, #ffcd3b 50%);
   background-repeat: no-repeat;
 }
 
@@ -87,7 +87,7 @@ footer {
 
   background-color: none;
   color: #1768AC;
-  
+
   border-radius: 15px;
   box-shadow: none;
   border: 2px solid;
@@ -97,6 +97,7 @@ footer {
   font-family: 'Roboto', sans-serif;
 }
 .buttonGo:hover{
+  margin-bottom: 50px;
   border-color: #39A6A3;
   color:#39A6A3;
   box-shadow: 0 0.5em 0.5em -0.4em #39A6A3;
@@ -105,7 +106,7 @@ footer {
 
 .dicee{
 
-  margin-top: 300px;
+  margin-top: 200px;
   margin-bottom: 100px;
   width:350px;
   height:350px;
