@@ -12,7 +12,8 @@
 
 body {
   /* background: linear-gradient(-70deg, #81B214 30%,#B6C867 30%); */
-  background: linear-gradient(-70deg, #39A6A3 30%, #ffcd3b 30%);
+  background: linear-gradient(-90deg, #39A6A3 50%, #ffcd3b 50%);
+  background-repeat: no-repeat;
   /* background:linear-gradient(-70deg, #fa7c30 30%, #000000 30%); */
   text-align: center;
 }
@@ -49,7 +50,7 @@ a{
   font-family: 'Indie Flower', cursive;
   font-weight: bold;
   /* margin-top:5% ; */
-  color: #39A6A3;
+  color: #eee;
 
 }
 a:hover{
@@ -63,7 +64,7 @@ a:hover{
   box-shadow: none;
   border: 2px solid;
   padding: 5px  5px;
-  font-size: 1rem;
+  font-size: 3rem;
   font-family: 'Roboto', sans-serif;
 
 }
@@ -88,7 +89,7 @@ footer {
   box-shadow: none;
   border: 2px solid;
 
-  font-size: 2rem;
+  font-size: 4rem;
   text-align: center;
   font-family: 'Roboto', sans-serif;
 }
@@ -101,7 +102,7 @@ footer {
 
 .dicee{
 
-
+  margin-top: 300px;
   margin-bottom: 100px;
   width:350px;
   height:350px
@@ -131,14 +132,14 @@ h1{
 
  }
  .dicee{
-   margin-top: 200px;
+   margin-top: 400px;
    width: 400px;
    height: 400px;
 
  }
- /* .ind{
+ .ind{
      background: linear-gradient(90deg, #39A6A3 50%, #ffcd3b 50%);
 
- } */
+ }
 
 }
