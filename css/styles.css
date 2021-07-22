@@ -90,6 +90,7 @@ h1{
  }
  body{
    background:linear-gradient(-90deg, #39A6A3 25%, #ffcd3b 30%);
+   background-repeat: no-repeat;
  }
 
 }
@@ -124,6 +125,7 @@ h1{
 }
 .ind{
   background: linear-gradient(to right, #39A6A3 30%, #ffcd3b 30%);
+
   position: relative;
 }
 @media (max-width:774px) {
@@ -139,5 +141,6 @@ h1{
   }
   .ind{
       background: linear-gradient(to right, #39A6A3 25%, #ffcd3b 25%);
+        background-repeat: no-repeat;
   }
 }
