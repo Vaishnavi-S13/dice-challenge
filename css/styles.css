@@ -1,0 +1,143 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  /* background: linear-gradient(-70deg, #81B214 30%,#B6C867 30%); */
+  background: linear-gradient(-70deg, #39A6A3 30%, #ffcd3b 30%);
+  /* background:linear-gradient(-70deg, #fa7c30 30%, #000000 30%); */
+  text-align: center;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 5rem;
+  color: #39A6A3;
+
+}
+
+p {
+  font-size: 2rem;
+  color: #1768ac;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bolder;
+}
+
+img {
+
+  height: 200px;
+  width:200px;
+  margin: 20px 20px;
+  border-radius: 15px;
+
+
+}
+
+a{
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  /* margin-top:5% ; */
+  color: #39A6A3;
+
+}
+a:hover{
+  color: #1768AC;
+}
+.btn{
+  background-color: none;
+  color: #1768AC;
+  border-radius: 15px;
+  box-shadow: none;
+  border: 2px solid;
+  padding: 5px  5px;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+
+}
+.btn:hover{
+  border-color: #39A6A3;
+  color:#39A6A3;
+  box-shadow: 0 0.5em 0.5em -0.4em #39A6A3;
+  transform: translateY(-0.25em);
+}
+footer {
+  margin-top: 5%;
+}
+@media (max-width: 774px) {
+  img{
+    height: 100px;
+    width:100px;
+    margin: 20px 20px;
+  }
+h1{
+   font-size: 2.5rem;
+ }
+ p
+ {
+   font-size: 1.5rem;
+ }
+ body{
+   background:linear-gradient(-90deg, #39A6A3 25%, #ffcd3b 30%);
+ }
+
+}
+
+
+/* button for entering into the game: */
+.buttonGo{
+  background-color: none;
+  color: #1768AC;
+  margin-right: 550px;
+  margin-top:50px;
+  border-radius: 15px;
+  box-shadow: none;
+  border: 2px solid;
+
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.buttonGo:hover{
+  border-color: #39A6A3;
+  color:#39A6A3;
+  box-shadow: 0 0.5em 0.5em -0.4em #39A6A3;
+  transform: translateY(-0.25em);
+}
+
+.dicee{
+  margin-right: 550px;
+  width:350px;
+  height:350px
+
+}
+.ind{
+  background: linear-gradient(to right, #39A6A3 30%, #ffcd3b 30%);
+  position: relative;
+}
+@media (max-width:774px) {
+  .buttonGo{
+    font-size: 1rem;
+    margin-right: 270px;
+    border-radius: 10px;
+  }
+  .dicee{
+    width: 200px;
+    height: 200px;
+    margin-right: 270px;
+  }
+  .ind{
+      background: linear-gradient(to right, #39A6A3 25%, #ffcd3b 25%);
+  }
+}
